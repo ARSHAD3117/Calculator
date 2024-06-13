@@ -1,0 +1,27 @@
+.button{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 30px;
+    background-color: #2C3E50;
+}
+
+.singleButton{
+    height: 90px;
+    width: 90px;
+    border-radius: 1rem;
+    color: #dfb951;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: #34495E;
+    border: none;
+    box-shadow: 0 4px #1F2D3A, 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.singleButton:hover{
+    border: 2px solid white;
+}
+
+.equalButtton{
+    width:188px
+}
